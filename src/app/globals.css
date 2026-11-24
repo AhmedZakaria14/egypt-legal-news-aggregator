@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+  --color-navy-950: #0a1628;
+  --color-navy-900: #0f1f3a;
+  --color-navy-800: #16305c;
+  --color-navy-700: #1e4076;
+  --color-navy-100: #dbe4f2;
+  --color-navy-50: #eef2f8;
+  --color-gold-500: #c9a227;
+  --color-gold-400: #dcb93f;
+  --color-gold-100: #f6ecd0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: #f4f1ea;
+}
